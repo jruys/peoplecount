@@ -5,14 +5,15 @@
 // v0.2       Changed text display method
 
 const xapi = require('xapi');
-const maxPeople = 1
+const maxPeople = 5
+const alertDuration = 30
 console.log('MACRO STARTED - COVID-19 People Count');
 
 // display text on screen - can also be replaced by play-message, show-image, call-security etc
-function displayTextOnScreen(text, duration = 30) {
+function displayTextOnScreen(text) {
   xapi.command('UserInterface Message Alert Display', {
   Title: 'COVID-19 ALERT',
-  Text: text, Duration: duration,
+  Text: text, Duration: alertDuration,
   });
 }
 
