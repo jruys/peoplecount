@@ -1,4 +1,6 @@
 // DJ Uittenbogaard - duittenb@cisco.com
+// JW Ruys - jruys@cisco.com
+//
 // v0.1       Info: Count maximum people, show notification when >max nr of people in the room
 // v0.2       Changed text display method
 
