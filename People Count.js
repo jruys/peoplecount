@@ -6,7 +6,7 @@
 // v0.3       Moved maxPeople display to alert header
 
 const xapi = require('xapi');
-const maxPeople = 1
+const maxPeople = 2
 const alertDuration = 30
 console.log('Debug: init - max = '+maxPeople);
 
